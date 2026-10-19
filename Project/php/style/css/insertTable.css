@@ -1,0 +1,139 @@
+select {
+    width: 120px;
+    height: 25px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+input {
+    width: 60px;
+    height: 20px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px 28px;
+    margin: 30px 962.5px;
+    text-decoration: none;
+}
+
+button:hover, select:hover, input:hover {
+    transition: color .4s;
+    color: #ff3131;
+    border-color: #ff3131;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.div-tips {
+    padding: 10px 15px;
+    margin-right: 25px;
+    text-align: center;
+    border-radius: 20px;
+    transition: transform .4s;
+}
+
+.div-tips:hover {
+    transform: scale(1.03);
+}
+
+.div-select {
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: transform .4s;
+}
+
+.div-test {
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 20px;
+    transition: transform .4s;
+}
+
+.input-tips {
+    font-size: 13px;
+    width: 250px;
+    height: 400px;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 5px;
+    border: 2px solid darkgrey;
+    outline: none;
+}
+
+.input-tips:hover {
+    border: 2px solid #ff3131;
+}
+
+.div-textbox {
+    padding: 10px 15px;
+    align-items: center;
+    border-radius: 20px;
+    transition: transform .4s;
+}
+
+.input-textbox {
+    font-size: 14px;
+    width: 350px;
+    height: 400px;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 5px;
+    border: 2px solid darkgrey;
+    outline: none;
+}
+
+.input-textbox:hover {
+    border: 2px solid #ff3131;
+}
+
+.input-textbox-question{
+    font-size: 14px;
+    width: 350px;
+    height: 200px;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 5px;
+    border: 2px solid darkgrey;
+    outline: none;
+}
+
+.input-textbox-question:hover {
+    border: 2px solid #ff3131;
+}
+
+.button-insert {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px 28px;
+    margin: 30px 1042.5px;
+    text-decoration: none;
+}
+
+.button-question {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px 28px;
+    margin: 30px 917.5px;
+    text-decoration: none;
+}

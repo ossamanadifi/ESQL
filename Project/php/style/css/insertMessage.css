@@ -1,0 +1,64 @@
+select {
+    width: 25vh;
+    height: 3vh;
+    margin-top: 0.1rem;
+    margin-right: 1rem;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px 28px;
+    margin-left: 118vh;
+    text-decoration: none;
+}
+
+button:hover, select:hover, input:hover, label:hover {
+    transition: color .4s;
+    color: #ff3131;
+    border-color: #ff3131;
+}
+
+.container{
+    text-align: center;
+    margin-top: 7.5rem;
+}
+
+.div-select-message {
+    display: inline-block;
+    vertical-align: middle;
+    height: 35%;
+}
+
+.input-title {
+    font-size: 14px;
+    width: 35vh;
+    height: 10vh;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 5px;
+    border: 2px solid darkgrey;
+    outline: none;
+}
+
+.input-text {
+    font-size: 14px;
+    width: 35vh;
+    height: 20vh;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 5px;
+    border: 2px solid darkgrey;
+    outline: none;
+}
+
+.input-title:hover, .input-text:hover {
+    border: 2px solid #ff3131;
+}

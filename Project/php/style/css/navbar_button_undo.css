@@ -1,0 +1,93 @@
+html, body {
+    font-family: 'Public Sans';
+    max-width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.zoom-on-img {
+    margin-top: 2.17vh;
+    margin-left: 3.25vh;
+    transition: transform .4s;
+}
+
+.zoom-on-img:hover {
+    transform: scale(1.099);
+}
+
+.button-navbar {
+    float: right;
+    display: block;
+    color: black;
+    background-color: white;
+    border: 0.33vh solid black;
+    border-radius: 1.39vh;
+    text-align: center;
+    padding: 2vh 4.44vh;
+    margin-top: 2.17vh;
+    margin-left: 125.17vh;
+    text-decoration: none;
+}
+
+.button-navbar-first {
+    float: right;
+    display: block;
+    width: 170px;
+    color: black;
+    background-color: white;
+    border: 0.33vh solid black;
+    border-radius: 1.39vh;
+    text-align: center;
+    padding: 2vh 4.44vh;
+    margin-top: 2.17vh;
+    margin-left: 100vh;
+    margin-right: 1vh;    
+    text-decoration: none;
+}
+
+.button-navbar-second {
+    float: right;
+    display: block;
+    width: 170px;
+    color: black;
+    background-color: white;
+    border: 0.33vh solid black;
+    border-radius: 1.39vh;
+    text-align: center;
+    padding: 2vh 2vh;
+    margin-top: 2.17vh;
+    text-decoration: none;
+}
+
+button:hover {
+    transition: color .4s;
+    color: #ff3131;
+    border-color: #ff3131;
+}
+
+.undo {
+    float: right;
+    margin-top: 2.17vh;
+    margin-right: 3.25vh;
+}
+
+.button-undo {
+    float: right;
+    margin: auto;
+    padding: 0%;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.button-undo:hover {
+    transition: color .4s;
+    color: transparent;
+    border-color: transparent;
+}
