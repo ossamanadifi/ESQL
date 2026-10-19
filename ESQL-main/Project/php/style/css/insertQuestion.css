@@ -1,0 +1,71 @@
+input {
+    width: 12.5vh;
+    height: 2.5vh;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+input[type=number] {
+    width: 17.5vh;
+    height: 2.5vh;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+select {
+    width: 15vh;
+    height: 3vh;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px 28px;
+    margin: 5vh 104vh;
+    text-decoration: none;
+}
+
+button:hover, select:hover, input:hover, label:hover {
+    transition: color .4s;
+    color: #ff3131;
+    border-color: #ff3131;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.div-textbox {
+    align-items: center;
+    border-radius: 20px;
+    transition: transform .4s;
+}
+
+.input-textbox-question {
+    font-size: 14px;
+    width: 35vh;
+    height: 20vh;
+    margin-left: 1vh;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 5px;
+    border: 2px solid darkgrey;
+    outline: none;
+}
+
+.input-textbox-question:hover {
+    border: 2px solid #ff3131;
+}

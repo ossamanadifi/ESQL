@@ -1,0 +1,148 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-query {
+    float: right;
+    padding: 3vh 3vh;
+    width: 65%;
+    height: 70%;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    background-color: rgb(240, 240, 240);
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+.label-query {
+    display: block;
+    font-size: 16px;
+    width: 80%;
+}
+
+label:hover {
+    transition: color .4s;
+    color: #ff3131;
+}
+
+.div-table {
+    display: inline;
+}
+
+.div-table-answer-wrong {
+    color: #bb3f3f;
+}
+
+.div-table-answer-correct {
+    color: green;
+}
+
+.div-table-solution {
+    color: green;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    width: auto;
+    font-size: 11px;
+}
+
+table, th, td {  
+    border: 1.25px solid black;
+    text-align: left;
+}
+  
+th, td {
+    padding: 5px;
+}
+
+.div-send-answer {
+    position: relative;
+    float: left;
+    margin-bottom: 2vh;
+}
+
+.input-solution {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    font-size: 11px;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    border: 2px solid darkgrey;
+    outline: none;
+}
+
+.input-solution:hover {
+    transition: color .4s;
+    border-color: #ff3131;
+}
+
+.input-tips {
+    font-size: 12px;
+    width: 700px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button-query {
+    display: block;
+    margin-top: 0.5vh;
+    margin-left: 102.5vh;
+    color: black;
+    background-color: white;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 10px;
+    text-align: center;
+    padding: 1vh 3vh;
+    text-decoration: none;
+}
+
+.div-button {
+    align-items: center;
+    width: auto;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-bottom: 50px;    
+}
+
+.button-final {
+    float: right;
+    display: block;
+    width: 150px;
+    color: black;
+    background-color: white;
+    border: 0.33vh solid black;
+    border-radius: 1.39vh;
+    text-align: center;
+    padding: 2vh 2vh;
+    margin-top: 2.17vh;
+    margin-right: 7.5vh;
+    text-decoration: none;
+} 
+
+.button-solution {
+    float: right;
+    display: block;
+    width: 150px;
+    color: black;
+    background-color: white;
+    border: 0.33vh solid black;
+    border-radius: 1.39vh;
+    text-align: center;
+    padding: 2vh 2vh;
+    margin-top: 2.17vh;
+    margin-right: 7.5vh;
+    text-decoration: none;
+} 

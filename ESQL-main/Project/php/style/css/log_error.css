@@ -1,0 +1,41 @@
+html, body {
+    font-family: 'Public Sans';
+    max-width: 100%;
+    height: 100vh;
+}
+
+div {
+    font-family: 'Public Sans';
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 30vh;
+    padding: 5vh 15vh;
+    width: 23.44vh;
+    text-align: center;
+    border-radius: 2.60vh;
+    background-color: rgba(255,255,255,0.70);
+    border: 2.5px solid rgb(218, 205, 205);
+}
+
+div:hover {
+    transition: border .4s;
+    border-color: #ff3131;
+}
+
+button {
+    color: black;
+    margin-top: 6.51vh;
+    background-color: white;
+    border: 0.26vh solid black;
+    border-radius: 1.30vh;
+    text-align: center;
+    padding: 1.82vh 4.17vh;
+    text-decoration: none;
+}
+
+button:hover {
+    transition: color .4s;
+    color: #ff3131;
+    border-color: #ff3131;
+}
